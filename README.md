@@ -12,7 +12,7 @@
     <h3> As a user I would like a cash prize for winning. <h3>
     
 # Flow Chart 
-![FlowChart] (https://github.com/Oliver-Slape/Project-002/blob/master/Flow chart.png)
+![FlowChart] (https://github.com/Oliver-Slape/Project-002/blob/master/Flowchart.png)
 
 <h1> Product Backlog <h1>
     <h3> High Level Function Requirements <h3>
