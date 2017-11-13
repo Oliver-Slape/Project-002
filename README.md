@@ -16,9 +16,14 @@
 
 <h1> Product Backlog <h1>
     <h3> High Level Function Requirements <h3>
-        <h4> <h4>   
+        <h4> Cards only need value 1 - 13 <h4>
+        <h4> Ask player if next card is H or L <h4>
+        <h4> Check if card is H or L <h4>
+        <h4> If correct issue cash prize <h4>
+        <h4> If draw restart <h4>
+        <h4> If lose game over<h4>
     <h3> High Level Non-Function Requirements <h3>
-        <h4> <h4>
+        <h4> Current development is pure console code based so no design is required. <h4>
 
 <h1> Sprint Backlog <h1>
     <h3> As a user I would like to see the first number. <h3>
