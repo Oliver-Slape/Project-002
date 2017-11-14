@@ -2,6 +2,8 @@
 
 ## High-Low
 
+### Task: A player is shown a random playing card, then asked to decide whether the next card will be 'higher' or 'lower'. If the guess is correct the player is awarded with a 'cash' prize. 
+
 <h1> User Stories <h1>
     <h3> As a user I would like to see the first number. <h3>
     <h3> As a user I would like the numbers to be random. <h3>
