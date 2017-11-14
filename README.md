@@ -36,7 +36,8 @@
     
 <h1> Design Documentation <h1>
   <h2> Process of Implememntation <h2>
-    <h3> The first step was to create the random number generator: 
+    <h3> The first step was to create the random number generator: <h3>
+    <h4>
     srand((int)time(0));
     int n = 0;	
     int r1;
@@ -45,20 +46,24 @@
 	    r1 = (rand() % 13) + 1;
 	    r2 = (rand() % 13) + 1;
     }
-    <h3>
-    <h3> Next was to output the first card: cout <<"The first card is: \n"  << r1 <<"\n"; <h3>
-    <h3> Then create Variables and gather user input: 
+    <h4>
+    <h3> Next was to output the first card: <h3>
+    <h4> cout <<"The first card is: \n"  << r1 <<"\n"; <h4>
+    <h3> Then create Variables and gather user input: <h3>
+    <h4>
      char H = 'H';
      char L = 'L';
      char i;
 	 cout << "Please enter H or L: \n";
      cin >> i;
-      <h3>
-      <h3> Then Print out user input and the second card: 
+      <h4>
+      <h3> Then Print out user input and the second card: <h3>
+      <h4>
       cout << "You entered: " << i<<"\n\n";
 	  cout <<"The second card is: \n" << r2 <<"\n";
-      <h3>
-      <h3> Next if user input H check for result:
+      <h4>
+      <h3> Next if user input H check for result: <h3>
+      <h4>
       if (i == H) {
       if ( r1 < r2 ) {
         cout << "Well done you win 30 Pence";
@@ -67,8 +72,9 @@
         cout<< "Incorrect game over.";
       }
     }
-      <h3> 
-      <h3> Check if user input L:  
+      <h4> 
+      <h3> Check if user input L: <h3>
+      <h4>
       else if (i == L) {
       if ( r1 > r2 ) {
         cout << "Well done you win 30 Pence";
@@ -77,12 +83,13 @@
         cout<< "Incorrect game over.";
       }
     }
-    <h3>
-    <h3> And check for incorrect entries:  
+    <h4>
+    <h3> And check for incorrect entries: <h3>
+    <h4>
     else {
       cout << "incorrect input. Start Over.";
     }
-    <h3>
+    <h4>
   <h2> IDE Used and Features <h2>
     <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. <h3>
   <h2> Debugging process <h2>
