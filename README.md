@@ -99,5 +99,5 @@
   <h2> Coding Standards <h2>
     <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. However, Comments need to be added to code. <h3>
   <h2> Evaluation <h2>
-    <h3>The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. Overall all is fine but the code should be commented throught.  <h3>
+    <h3>The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. Overall all is fine but the code should be commented throught. Becuase a Procedural paradigm was use the structure and the characteristics is much like an algorithm. The code is structured step by step in procedural paradigms, this best matches an algorithm as it too is step by step.   <h3>
     
