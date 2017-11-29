@@ -42,7 +42,7 @@
 <h2> Process of Implememntation <h2>
 <h3> The first step was to create the random number generator: <h3>
     
-    ```C++
+``` C++
     srand((int)time(0));
     int n = 0;	
     int r1;
@@ -51,30 +51,30 @@
 	    r1 = (rand() % 13) + 1;
 	    r2 = (rand() % 13) + 1;
     }
-    ```
+```
 <h3> Next was to output the first card: <h3>
     
-    ```C++
+    ``` C++
     cout <<"The first card is: \n"  << r1 <<"\n";
     ```
 <h3> Then create Variables and gather user input: <h3>
    
-    ```C++
+``` C++
      char H = 'H';
      char L = 'L';
      char i;
      cout << "Please enter H or L: \n";
      cin >> i;
-      ```
+```
 <h3> Then Print out user input and the second card: <h3>
      
-      ```C++
+``` C++
       cout << "You entered: " << i<<"\n\n";
       cout <<"The second card is: \n" << r2 <<"\n";
-      ```
+```
 <h3> Next if user input H check for result: <h3>
 
-      ```C++
+``` C++
       if (i == H) {
       if ( r1 < r2 ) {
         cout << "Well done you win 30 Pence";
@@ -83,10 +83,10 @@
         cout<< "Incorrect game over.";
       }
     }
-      ``` 
+``` 
 <h3> Check if user input L: <h3>
 
-      ```C++
+``` C++
       else if (i == L) {
       if ( r1 > r2 ) {
         cout << "Well done you win 30 Pence";
@@ -95,14 +95,14 @@
         cout<< "Incorrect game over.";
       }
     }
-    ```
+```
 <h3> And check for incorrect entries: <h3>
 
-    ```C++
+``` C++
     else {
       cout << "incorrect input. Start Over.";
     }
-    ```
+```
 <h2> IDE Used and Features <h2>
 <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. <h3>
 
