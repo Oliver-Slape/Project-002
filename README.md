@@ -54,9 +54,9 @@
 ```
 <h3> Next was to output the first card: <h3>
     
-    ``` C++
+``` C++
     cout <<"The first card is: \n"  << r1 <<"\n";
-    ```
+```
 <h3> Then create Variables and gather user input: <h3>
    
 ``` C++
