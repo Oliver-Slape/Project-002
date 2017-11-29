@@ -42,7 +42,7 @@
 <h2> Process of Implememntation <h2>
 <h3> The first step was to create the random number generator: <h3>
     
-    ```
+    ```C++
     srand((int)time(0));
     int n = 0;	
     int r1;
@@ -54,12 +54,12 @@
     ```
 <h3> Next was to output the first card: <h3>
     
-    ```
+    ```C++
     cout <<"The first card is: \n"  << r1 <<"\n";
     ```
 <h3> Then create Variables and gather user input: <h3>
    
-    ```
+    ```C++
      char H = 'H';
      char L = 'L';
      char i;
@@ -68,13 +68,13 @@
       ```
 <h3> Then Print out user input and the second card: <h3>
      
-      ```
+      ```C++
       cout << "You entered: " << i<<"\n\n";
       cout <<"The second card is: \n" << r2 <<"\n";
       ```
 <h3> Next if user input H check for result: <h3>
 
-      ```
+      ```C++
       if (i == H) {
       if ( r1 < r2 ) {
         cout << "Well done you win 30 Pence";
@@ -86,7 +86,7 @@
       ``` 
 <h3> Check if user input L: <h3>
 
-      ```
+      ```C++
       else if (i == L) {
       if ( r1 > r2 ) {
         cout << "Well done you win 30 Pence";
@@ -98,7 +98,7 @@
     ```
 <h3> And check for incorrect entries: <h3>
 
-    ```
+    ```C++
     else {
       cout << "incorrect input. Start Over.";
     }
