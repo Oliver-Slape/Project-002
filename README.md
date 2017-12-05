@@ -107,7 +107,7 @@
 <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. <h3>
 
 <h2> Debugging process <h2>
-<h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was jsut a matter of fixing this. <h3>
+<h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was just a matter of fixing this. <h3>
 
 <h2> Coding Standards <h2>
 <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. However, Comments need to be added to code. <h3>
