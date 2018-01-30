@@ -40,6 +40,7 @@
     
 <h1> Design Documentation <h1>
 <h2> Process of Implememntation <h2>
+<h3> This is the simple breakdown of how the algorithm was created into code step by step. <h3>
 <h3> The first step was to create the random number generator: <h3>
     
 ``` C++
