@@ -115,4 +115,7 @@
 
 <h2> Evaluation <h2>
 <h3>The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. Overall all is fine but the code should be commented throught. Becuase a Procedural paradigm was use the structure and the characteristics is much like an algorithm. The code is structured step by step in procedural paradigms, this best matches an algorithm as it too is step by step.   <h3>
+
+ <h2> Relationship between algorithm and code <h2>
+    <h3> Because this program implements an algorithm the best paradigm to do this was procedural. This is because it carries out the program in computational steps, much like an algorithm. Because procedural works by calling function after function it works well with algorithms as we can write each step of the algorithm into a function and then execute them in order. As seen above in the proccess of implementation we can see how the written algorithm and its steps has be transferred and translated into sections of code. <h3> 
     
